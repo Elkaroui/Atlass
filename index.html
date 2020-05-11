@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atlas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/atlas.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/smallscreen.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- TOP -->
+        <div class="top-wrap uk-position-relative uk-light uk-background-secondary">
+
+            <!-- NAV -->
+            <div class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+                <div class="uk-container">
+                    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+                        <div class="uk-navbar-left">
+                            <div class="uk-navbar-item uk-padding-remove-horizontal">
+                                <a class="uk-logo" title="Logo" href=""><img src="img/logo.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="uk-navbar-center">
+                            <ul class="uk-navbar-nav uk-visible@s">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Testimonials</a></li>
+                                <li><a href="">Driving Lessons</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Trial Lesson</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="uk-navbar-right">
+                            <ul class="uk-navbar-nav uk-visible@s">
+                                <li><a href="">Sign in</a></li>
+                                <li><a class="atlas-login" href="">Login</a></li>
+                            </ul>
+                            <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+            <!-- /NAV -->
+
+            <div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height">
+
+                <!-- TOP CONTAINER -->
+                <div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top" data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
+                    <div class="uk-width-1-1@s uk-align-center uk-text-center atlas-header-padding" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
+                        <div class="uk-margin-small-bottom header-icon-1"><img src="img/ico-steering-wheel.svg"></div>
+                        <h2 class="uk-margin-remove header-tx-small">Welcome To The Website Of Driving School ATLAS Drive</h2>
+                        <h1 class="uk-margin-remove header-tx-large">choose smooth, safe and independent driving</h1>
+                        <p class="subtitle-text uk-visible@s header-tx-para">Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare
+                            suspicioni locum, fuit primum ipsius pudore, deinde etiam</p>
+                        <a href="#" class="uk-button uk-button-primary uk-border-pill" data-uk-scrollspy-class="uk-animation-fade">TRY FREE TRIAL</a>
+                    </div>
+                </div>
+                <div class="uk-position-bottom-center uk-position-medium uk-position-z-index uk-text-center header-icon-bottom">
+                    <a href="#content" data-uk-scroll="duration: 500">
+                        <img src="img/ico-mouse.svg">
+                    </a>
+                </div>
+                <!-- /TOP CONTAINER -->
+                <!-- TOP IMAGE -->
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="img/header-bg.jpg 640w,
+				img/header-bg.jpg 960w,
+				img/header-bg.jpg 1200w,
+				img/header-bg.jpg 2000w" data-sizes="100vw" data-src="img/header-bg.jpg" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0">
+                <!-- /TOP IMAGE -->
+            </div>
+
+        </div>
+        <!-- /TOP -->
+    </header>
+    <section id="content" class="uk-section-small	 uk-section-default atlas-s-gray">
+        <!-- Icons section -->
+        <div class="uk-container">
+            <div class="atlas-sub-header">
+                <div class="uk-child-width-1-2 uk-child-width-1-4@l " uk-grid>
+                    <div class="atlas-color-ico uk-position-relative">
+                        <div class="">
+                            <img src="img/seat.svg">
+                            <span class="atlas-sub-header-space">Comfort Vehicles</span>
+                        </div>
+                        <hr class="atlas-divider-vertical uk-position-center-right">
+                    </div>
+                    <div class="atlas-color-ico uk-position-relative">
+                        <div class="">
+                            <img src="img/ico-wheel.svg">
+                            <span class="atlas-sub-header-space">Driving Practice</span>
+                        </div>
+                        <hr class="atlas-divider-vertical uk-position-center-right">
+                    </div>
+                    <div class="atlas-color-ico uk-position-relative">
+                        <div class="">
+                            <img src="img/ico-id.svg">
+                            <span class="atlas-sub-header-space">Licensed Training</span>
+                        </div>
+                        <hr class="atlas-divider-vertical uk-position-center-right">
+                    </div>
+                    <div class="atlas-color-ico uk-position-relative">
+                        <div class="">
+                            <img src="img/ico-calendar.svg">
+                            <span class="atlas-sub-header-space">Flexible Schedule</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Icons section -->
+        <div class="uk-container">
+            <div class="uk-width-1-1@s uk-text-center uk-align-center atlas-title-padding">
+                <h2 class="uk-margin-remove body-tx-large">Here is How it Works</h2>
+                <p class="subtitle-text uk-visible@s body-tx-para">ur est difficilius satis facere, qui se Latina scripta con
+                    temnere. in quibus hoc primum
+                </p>
+            </div>
+            <!-- 3BOX -->
+            <div class="uk-container">
+                <div class="uk-child-width-1-1 uk-child-width-1-3@m  uk-text-center" uk-grid>
+                    <div class="">
+                        <div class="atlas-box-colorsha uk-position-relative">
+                            <span class="atlas-3box-number">1</span>
+                            <img class="atlas-3box-img" src="img/ico-user.svg">
+                            <div class="uk-margin-remove atlas-3box-title">Theorie</div>
+                            <p class="uk-margin-remove atlas-3box-para">Quam quidem partem accusat ionis admiratus sum et moleste tam. </p>
+                            <div class="uk-margin-remove atlas-3box-url">
+                                <a href="#!">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="atlas-box-colorsha uk-position-relative">
+                            <span class="atlas-3box-number">2</span>
+                            <img class="atlas-3box-img" src="img/ico-formula.svg">
+                            <div class="uk-margin-remove atlas-3box-title">Practice</div>
+                            <p class="uk-margin-remove atlas-3box-para">Quam quidem partem accusat ionis admiratus sum et moleste tam. </p>
+                            <div class="uk-margin-remove atlas-3box-url">
+                                <a href="#!">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="atlas-box-colorsha uk-position-relative">
+                            <span class="atlas-3box-number">3</span>
+                            <img class="atlas-3box-img" src="img/ico-quiz.svg">
+                            <div class="uk-margin-remove atlas-3box-title">Quiz</div>
+                            <p class="uk-margin-remove atlas-3box-para">Quam quidem partem accusat ionis admiratus sum et moleste tam. </p>
+                            <div class="uk-margin-remove atlas-3box-url">
+                                <a href="#!">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="atlas-3box-quot uk-text-center">
+                    “Choose One Of Those Services or Combine Them”
+                </div>
+            </div>
+            <!-- /3BOX -->
+        </div>
+    </section>
+
+    <!-- friendly -->
+    <section id="friendly" class="uk-section-small uk-section-default">
+        <div class="uk-container">
+            <div class="uk-child-width-1-1 uk-child-width-1-2@m" uk-grid>
+                <div class="uk-position-relative uk-align-center frd-b1">
+                    <span class="fr-blue-line"></span>
+                    <h1 class="uk-margin-remove friendly-title">Friendly Instructors At <br>The Highest Service Level</h1>
+                    <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli
+                        icioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaqu
+                        virilem togam deditšnihil dicam hoc loco de me; tantum sit, quantum vos existima
+                        am, hunc a patre continuo ad me esse deductum; nemo hunc M. Caelium in illo av
+                        s erudiretur.</p>
+                    <a href="#" class="uk-button atlas-button-primary uk-border-pill" data-uk-scrollspy-class="uk-animation-fade">
+                        Learn More
+                        <span uk-icon="icon: arrow-right; ratio: 1.4"></span>
+                    </a>
+                </div>
+
+                <div class="uk-position-relative mb-img-rot">
+                    <div class="mb-img-rot2">
+                        <div class="fdy-img-box">
+                            <img class="fdy-img" src="img/friendly-user.png">
+                            <img class="fdy-frame" src="img/frame.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /friendly -->
+
+    <!-- place -->
+    <section id="place" class="uk-section-small uk-section-default">
+        <div class="uk-container">
+            <h1 class="uk-margin-remove atlas-place uk-text-center">Why Atlas Theory in Amsterdam</h1>
+            <div class="uk-child-width-1-1 uk-child-width-1-2@l" uk-grid>
+                <div class="amst-img"><img src="img/amsterdam-people.png"></div>
+
+                <div class="uk-position-relative">
+                    <div accesskey="amst-content">
+                        <span class="place-line"></span>
+                        <div class="place-info">
+                            <span class="place-numbe">01</span>
+                            <h2 class="uk-margin-remove place-title">Discover</h2>
+                            <p class="uk-margin-remove place-para">Ideoque fertur neminem aliquando ob haec vel similia pddictum
+                                oblato de more elogio revocari iussisse, quod ineiquoque princip
+                                ente adulatorum cohorte.</p>
+                        </div>
+                        <div class="place-info">
+                            <span class="place-numbe">02</span>
+                            <h2 class="uk-margin-remove place-title">Learn</h2>
+                            <p class="uk-margin-remove place-para">Ideoque fertur neminem aliquando ob haec vel similia pddictum
+                                oblato de more elogio revocari iussisse, quod ineiquoque princip
+                                ente adulatorum cohorte.</p>
+                        </div>
+                        <div class="place-info">
+                            <span class="place-numbe">03</span>
+                            <h2 class="uk-margin-remove place-title">Exam</h2>
+                            <p class="uk-margin-remove place-para">Ideoque fertur neminem aliquando ob haec vel similia pddictum
+                                oblato de more elogio revocari iussisse, quod ineiquoque princip
+                                ente adulatorum cohorte.</p>
+                        </div>
+                        <div class="amst-content">
+                            <a href="#" class="uk-button atlas-button-primary uk-border-pill">
+                                Theory Course
+                                <span uk-icon="icon: arrow-right; ratio: 1.4"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /place -->
+
+    <!-- quiz -->
+    <section id="place" class="uk-section-small uk-section-default quiz">
+        <div class="uk-container">
+            <div class="uk-position-relative atlas-q">
+                <span class="fr-blue-line-2"></span>
+                <h1 class="uk-margin-remove friendly-title">Atlas Online Theory/Quiz</h1>
+            </div>
+            <div class="atlas-quiz">
+                <div class="uk-child-width-1-1 uk-child-width-1-5@l" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 200">
+                    <div>
+                        <div class="uk-position-relative atlas-img-c">
+                            <span class="atlas-img-h"><img src="img/eye.svg"></span>
+                            <img src="img/women.png">
+                            <div class="atlas-info-block">
+                                <span>Free Trial</span>
+                                <div>€ 0,00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-position-relative atlas-img-c">
+                            <span class="atlas-img-h"><img src="img/eye.svg"></span>
+                            <img src="img/one-day.png">
+                            <div class="atlas-info-block">
+                                <span>One Day</span>
+                                <div>€ 169</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-position-relative atlas-img-c">
+                            <span class="atlas-img-h"><img src="img/eye.svg"></span>
+                            <img src="img/One%20week.png">
+                            <div class="atlas-info-block">
+                                <span>One Week</span>
+                                <div>€ 60</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-position-relative atlas-img-c">
+                            <span class="atlas-img-h"><img src="img/eye.svg"></span>
+                            <img src="img/Tow-weeks.png">
+                            <div class="atlas-info-block">
+                                <span>Two Weeks</span>
+                                <div>€ 70</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-position-relative atlas-img-c">
+                            <span class="atlas-img-h"><img src="img/eye.svg"></span>
+                            <img src="img/One%20month.png">
+                            <div class="atlas-info-block">
+                                <span>One Month</span>
+                                <div>€ 120</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-align-center uk-text-center">
+                    <a href="#" class="uk-button atlas-button-primary uk-border-pill" data-uk-scrollspy-class="uk-animation-fade">Visit Atlastheorie.nl</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /quiz -->
+    <!-- 3 Blocks -->
+    <section id="blocks3" class="uk-section-small uk-section-default">
+        <div class="uk-container">
+            <div class="blocks3c-quiz">
+                <div class="uk-child-width-1-1 uk-child-width-1-3@l" uk-grid uk-height-match="target: > div > .b3-content">
+                    <div>
+                        <div class="b3-content uk-text-center">
+                            <div class="b3-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39.381" height="40" viewBox="0 0 39.381 40">
+                                    <path id="good" d="M39.4,17.136a2.865,2.865,0,0,0-1.774-1.221,2.881,2.881,0,0,0-1.922-4.154,2.888,2.888,0,0,0-.149-2.935A2.863,2.863,0,0,0,33.782,7.6a2.884,2.884,0,0,0-4.146-3.746l-2.872,1.9A17.945,17.945,0,0,0,21.915,4.12a13.333,13.333,0,0,0-1.85-2.238L18.877.73a2.6,2.6,0,0,0-3.977,3.3l.092.143A18.094,18.094,0,1,0,35.616,28.053a.622.622,0,1,0-1.17-.422A16.872,16.872,0,0,1,13.273,37.9l5.06-3.351h0l4.206-2.785h0a1.7,1.7,0,0,0,.478-2.351l-.056-.084.817-.541a2.77,2.77,0,0,1,1.974-.427,4.01,4.01,0,0,0,2.858-.618l6.776-4.487A16.885,16.885,0,0,1,35.16,25a.622.622,0,0,0,.5.725.607.607,0,0,0,.114.011.622.622,0,0,0,.611-.509,18.19,18.19,0,0,0,.3-2.829l1.909-1.265a2.885,2.885,0,0,0,.812-4ZM25.556,6.56l-1.9,1.259-.374-1.008a13.31,13.31,0,0,0-.534-1.236,16.7,16.7,0,0,1,2.808.986Zm-19.7,4.312a16.851,16.851,0,0,1,9.726-5.545,7.684,7.684,0,0,1,.388,4.654l-1.516,6.551a1.693,1.693,0,0,0-2.171-.253l-4.3,2.844h0l-6.2,4.1c-.034-.437-.052-.877-.052-1.317A16.844,16.844,0,0,1,5.861,10.872ZM22.048,30.438a.45.45,0,0,1-.194.287h0L18.16,33.171,11.3,22.947a.622.622,0,0,0-1.033.693l6.852,10.219L11.85,37.35A16.9,16.9,0,0,1,1.959,24.586l6.2-4.094.714,1.065a.622.622,0,1,0,1.033-.693L9.2,19.807l3.775-2.492a.453.453,0,0,1,.627.128L21.982,30.1a.448.448,0,0,1,.066.339ZM38.6,19.056a1.63,1.63,0,0,1-.7,1.042l-2.183,1.446h0L27.926,26.7a2.769,2.769,0,0,1-1.974.427,4.012,4.012,0,0,0-2.858.618l-.817.541L15.412,17.925l1.774-7.664a8.936,8.936,0,0,0-.654-5.866.609.609,0,0,0-.026-.055,8.8,8.8,0,0,0-.569-1,1.356,1.356,0,0,1,2.074-1.722L19.2,2.774a12.152,12.152,0,0,1,2.916,4.469l.647,1.743,0,.009,0,.012c0,.011.009.02.013.029a.614.614,0,0,0,.043.077.622.622,0,0,0,.862.175L30.322,4.9a1.641,1.641,0,0,1,1.812,2.736l-.576.381h0l-1.284.851,0,0-.02.015A.622.622,0,0,0,30.961,9.9l1.285-.851a1.641,1.641,0,0,1,1.811,2.737L32.2,13.02a.622.622,0,1,0,.687,1.037l.288-.191,1-.66a1.641,1.641,0,0,1,1.812,2.737l-.93.616-.015.01-.917.607a.622.622,0,1,0,.687,1.037l.288-.191h0l1-.66A1.64,1.64,0,0,1,38.6,19.056Zm0,0" transform="translate(-0.501 -0.001)"></path>
+                                </svg>
+
+                            </div>
+                            <h2 class="uk-margin-remove b3-h2">Right Price & High
+                                Rating</h2>
+                            <p class="b3-para">you can be sure that you pay
+                                the right price at Atlasdrive.nl
+                                for high quality.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="b3-content uk-text-center">
+                            <div class="b3-img">
+                                <svg id="smile" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                                    <g id="Group_2" data-name="Group 2">
+                                        <g id="Group_1" data-name="Group 1">
+                                            <path id="Path_1" data-name="Path 1" d="M121.1,224.221a.869.869,0,0,0-1.228.068,9.674,9.674,0,0,1-14.357,0,.87.87,0,0,0-1.3,1.16,11.413,11.413,0,0,0,16.948,0A.87.87,0,0,0,121.1,224.221Z" transform="translate(-92.696 -199.652)" fill="#3957ff" />
+                                            <path id="Path_2" data-name="Path 2" d="M20,0A20,20,0,1,0,40,20,20.023,20.023,0,0,0,20,0Zm0,38.261A18.261,18.261,0,1,1,38.261,20,18.281,18.281,0,0,1,20,38.261Z" fill="#3957ff" />
+                                            <path id="Path_3" data-name="Path 3" d="M212.348,128A4.353,4.353,0,0,0,208,132.348a.87.87,0,0,0,1.739,0,2.609,2.609,0,0,1,5.217,0,.87.87,0,1,0,1.739,0A4.353,4.353,0,0,0,212.348,128Z" transform="translate(-185.391 -114.087)" fill="#3957ff" />
+                                            <path id="Path_4" data-name="Path 4" d="M86.957,132.348a.87.87,0,1,0,1.739,0,4.348,4.348,0,0,0-8.7,0,.87.87,0,1,0,1.739,0,2.609,2.609,0,0,1,5.217,0Z" transform="translate(-71.304 -114.087)" fill="#3957ff" />
+                                        </g>
+                                    </g>
+                                </svg>
+
+
+                            </div>
+                            <h2 class="uk-margin-remove b3-h2">Service With A
+                                Smile</h2>
+                            <p class="b3-para">Everything is arranged for
+                                you at Atlasdrive.nl. Theory
+                                courses, practical lessons
+                                and the reservation of exams.
+                                Your success is our concern</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="b3-content uk-text-center">
+                            <div class="b3-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39.967" height="40" viewBox="0 0 39.967 40">
+                                    <g id="quiz" transform="translate(-0.212)">
+                                        <path id="Path_5" data-name="Path 5" d="M51.565,90.007a3.742,3.742,0,1,0-3.742-3.742A3.746,3.746,0,0,0,51.565,90.007Zm0-6.312a2.57,2.57,0,1,1-2.57,2.57A2.573,2.573,0,0,1,51.565,83.695Z" transform="translate(-43.891 -76.076)" fill="#3957ff" />
+                                        <path id="Path_6" data-name="Path 6" d="M154.637,86.265a3.742,3.742,0,1,0,3.742-3.742A3.746,3.746,0,0,0,154.637,86.265Zm6.312,0a2.57,2.57,0,1,1-2.57-2.57A2.573,2.573,0,0,1,160.949,86.265Z" transform="translate(-142.361 -76.076)" fill="#3957ff" />
+                                        <path id="Path_7" data-name="Path 7" d="M265.193,90.007a3.742,3.742,0,1,0-3.742-3.742A3.746,3.746,0,0,0,265.193,90.007Zm0-6.312a2.57,2.57,0,1,1-2.57,2.57A2.573,2.573,0,0,1,265.193,83.695Z" transform="translate(-240.83 -76.076)" fill="#3957ff" />
+                                        <path id="Path_8" data-name="Path 8" d="M64.847,51.131H48.408a.586.586,0,0,0,0,1.172H64.847a.586.586,0,0,0,0-1.172Z" transform="translate(-43.89 -47.136)" fill="#3957ff" />
+                                        <path id="Path_9" data-name="Path 9" d="M51.565,239.546a3.742,3.742,0,1,0-3.742-3.742A3.746,3.746,0,0,0,51.565,239.546Zm0-6.312a2.57,2.57,0,1,1-2.57,2.57A2.573,2.573,0,0,1,51.565,233.234Z" transform="translate(-43.891 -213.932)" fill="#3957ff" />
+                                        <path id="Path_10" data-name="Path 10" d="M154.637,235.8a3.742,3.742,0,1,0,3.742-3.742A3.746,3.746,0,0,0,154.637,235.8Zm6.312,0a2.57,2.57,0,1,1-2.57-2.57A2.573,2.573,0,0,1,160.949,235.8Z" transform="translate(-142.361 -213.932)" fill="#3957ff" />
+                                        <path id="Path_11" data-name="Path 11" d="M48.408,201.842H64.847a.586.586,0,0,0,0-1.172H48.408a.586.586,0,0,0,0,1.172Z" transform="translate(-43.89 -184.993)" fill="#3957ff" />
+                                        <path id="Path_12" data-name="Path 12" d="M51.565,394.458a3.742,3.742,0,1,0-3.742-3.742A3.746,3.746,0,0,0,51.565,394.458Zm0-6.312a2.57,2.57,0,1,1-2.57,2.57A2.573,2.573,0,0,1,51.565,388.146Z" transform="translate(-43.891 -356.742)" fill="#3957ff" />
+                                        <path id="Path_13" data-name="Path 13" d="M154.637,390.716a3.742,3.742,0,1,0,3.742-3.742A3.746,3.746,0,0,0,154.637,390.716Zm6.312,0a2.57,2.57,0,1,1-2.57-2.57A2.573,2.573,0,0,1,160.949,390.716Z" transform="translate(-142.361 -356.742)" fill="#3957ff" />
+                                        <path id="Path_14" data-name="Path 14" d="M265.193,394.458a3.742,3.742,0,1,0-3.742-3.742A3.746,3.746,0,0,0,265.193,394.458Zm0-6.312a2.57,2.57,0,1,1-2.57,2.57A2.573,2.573,0,0,1,265.193,388.146Z" transform="translate(-240.83 -356.742)" fill="#3957ff" />
+                                        <path id="Path_15" data-name="Path 15" d="M48.408,356.754H64.847a.586.586,0,0,0,0-1.172H48.408a.586.586,0,0,0,0,1.172Z" transform="translate(-43.89 -327.802)" fill="#3957ff" />
+                                        <path id="Path_16" data-name="Path 16" d="M37.995,7.2l.364-.913a1.6,1.6,0,0,0-.891-2.073L35.88,3.584a1.6,1.6,0,0,0-2.073.891l-.726,1.82a2.089,2.089,0,0,0-.761.646q-.247.341-.495.712V2.4A2.408,2.408,0,0,0,29.42,0H2.617a2.407,2.407,0,0,0-2.4,2.4V31.66a.586.586,0,0,0,1.172,0V2.4A1.234,1.234,0,0,1,2.617,1.172h26.8A1.235,1.235,0,0,1,30.653,2.4V9.552a49.777,49.777,0,0,0-2.952,6.2c-.417,1.045-.795,2.084-1.131,3.1a3.742,3.742,0,1,0-2.207,6.765,3.778,3.778,0,0,0,.6-.047c-.34,2.789.041,4.425,1.136,4.862a1.476,1.476,0,0,0,.551.105c1.051,0,2.335-1.053,3.829-3.141.059-.083.118-.167.178-.252V37.6a1.235,1.235,0,0,1-1.234,1.233H2.617A1.234,1.234,0,0,1,1.384,37.6V34A.586.586,0,0,0,.212,34V37.6a2.407,2.407,0,0,0,2.4,2.4h26.8a2.408,2.408,0,0,0,2.405-2.4V25.305a48.833,48.833,0,0,0,3.205-6.633,52.072,52.072,0,0,0,1.761-5.159.586.586,0,0,0-1.128-.317,50.911,50.911,0,0,1-1.722,5.042c-.546,1.371-1.133,2.685-1.739,3.905l-4.837-1.929c.4-1.3.878-2.66,1.424-4.031a41.276,41.276,0,0,1,4.48-8.557.927.927,0,0,1,1.1-.317L36,7.962a.927.927,0,0,1,.578.985c-.083.621-.2,1.3-.357,2.009a.586.586,0,0,0,1.145.247c.16-.742.286-1.449.373-2.1a2.094,2.094,0,0,0-.036-.75A2.163,2.163,0,0,1,39,10.6c-.067,1.513-1.486,4.283-2.738,6.726-1.533,2.992-2.461,4.878-2.225,5.912a.586.586,0,0,0,1.142-.261c-.028-.121-.033-.54.515-1.82.406-.948.991-2.089,1.61-3.3,1.371-2.675,2.788-5.44,2.866-7.209A3.348,3.348,0,0,0,37.995,7.2Zm-16.2,14.669a2.571,2.571,0,0,1,4.394-1.812,37.276,37.276,0,0,0-1.04,4.26,2.572,2.572,0,0,1-3.355-2.448Zm9.872,1.319a31.449,31.449,0,0,1-2.143,3.52c-1.682,2.352-2.694,2.748-2.993,2.629s-.761-1.1-.363-3.967a31.483,31.483,0,0,1,.868-4.028ZM34.8,6.222a2.106,2.106,0,0,0-.385-.111l.479-1.2a.424.424,0,0,1,.55-.236l1.588.633a.424.424,0,0,1,.237.55l-.479,1.2a2.109,2.109,0,0,0-.356-.184Z" fill="#3957ff" />
+                                    </g>
+                                </svg>
+
+
+
+                            </div>
+                            <h2 class="uk-margin-remove b3-h2">Schedule Your Driving
+                                Lessons Yourself?</h2>
+                            <p class="b3-para">At this moment it is
+                                possible to schedule your
+                                driving lessons yourself with
+                                our driving school system!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /3 Blocks -->
+
+    <!-- Video -->
+    <section id="video" class="">
+        <div class="uk-container-expand">
+            <div class="uk-child-width-1-1 uk-child-width-1-2@l" uk-grid uk-grid uk-height-match="target: > div > .atlas-v-info">
+                <div class="atlas-video-b">
+                    <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+                </div>
+                <div class="atlas-v-info">
+                    <div class="uk-position-relative atlas-vinfo-b">
+                        <span class="atlas-vin-line"></span>
+                        <h1 class="uk-margin-remove atlas-vin-t">Theorie Service</h1>
+                        <p class="atlas-vin-para">Circa hos dies Lollianus primae lanuginis adulescens, Lampadi filius ex praefect
+                            exploratius causam Maximino spectante, convictus codicem noxarum artiumno
+                            ndum per aetatem firmato consilio descripsisse, exulque mittendus, ut sperabat
+                            ur, patris inpulsu provocavit ad principem, et iussus ad eius comitatum duci, dfu
+                            mo, ut aiunt, in flam</p>
+                        <div class="vid-section uk-position-relative">
+                            <div class="uk-child-width-1-3 " uk-grid>
+                                <div>
+                                    <div class="v-day v-fill">One Day</div>
+                                </div>
+                                <div>
+                                    <div class="v-day">2 Days</div>
+                                </div>
+                                <div>
+                                    <div class="v-day">Exam Only</div>
+                                </div>
+                            </div>
+                            <span class="vid-line-day"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- practice -->
+    <section id="practice" class="uk-section-small uk-section-default practice">
+        <div class="uk-container">
+            <h1 class="atlac-pra-title uk-margin-remove uk-text-center">
+                Practice Rates
+            </h1>
+            <div class="uk-child-width-1-1 uk-child-width-1-4@l rates-p" uk-grid uk-grid uk-height-match="target: > div > .atlas-pra-b" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 200">
+                <div>
+                    <div class="atlas-pra-b">
+                        <img class="img-pra" src="img/pra-img01.jpg">
+                        <div class="atlas-pra-fram">
+                            <div class="uk-position-relative trial_lesson">Trial Lesson<span class="price-pra">€30</span></div>
+                            <p class="para-pra">Hacque adfablitate confsus dum eade
+                                m postridie feceris ut ncognitus haereb
+                                tes numerando...</p>
+                            <div class="url-pra"><a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="atlas-pra-b">
+                        <img class="img-pra" src="img/pra-img02.jpg">
+                        <div class="atlas-pra-fram">
+                            <div class="uk-position-relative trial_lesson">Trial Lesson<span class="price-pra">€30</span></div>
+                            <p class="para-pra">Hacque adfablitate confsus dum eade
+                                m postridie feceris ut ncognitus haereb
+                                tes numerando...</p>
+                            <div class="url-pra"><a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="atlas-pra-b">
+                        <img class="img-pra" src="img/pra-img03.jpg">
+                        <div class="atlas-pra-fram">
+                            <div class="uk-position-relative trial_lesson">Trial Lesson<span class="price-pra">€30</span></div>
+                            <p class="para-pra">Hacque adfablitate confsus dum eade
+                                m postridie feceris ut ncognitus haereb
+                                tes numerando...</p>
+                            <div class="url-pra"><a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="atlas-pra-b">
+                        <img class="img-pra" src="img/pra-img04.jpg">
+                        <div class="atlas-pra-fram">
+                            <div class="uk-position-relative trial_lesson">Trial Lesson<span class="price-pra">€30</span></div>
+                            <p class="para-pra">Hacque adfablitate confsus dum eade
+                                m postridie feceris ut ncognitus haereb
+                                tes numerando...</p>
+                            <div class="url-pra"><a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /practice -->
+
+
+    <!-- book -->
+    <section id="book" class="uk-section-small uk-section-default booktoday">
+        <div class="uk-container">
+            <div class="uk-position-relative book-q">
+                <span class="fr-blue-line-2"></span>
+                <h1 class="uk-margin-remove friendly-title">Book An Exam Today</h1>
+            </div>
+            <div class="uk-child-width-1-1 uk-child-width-1-2@l" uk-grid uk-grid>
+                <div class="allbooks-blocks">
+                    <div class="uk-child-width-1-2" uk-grid uk-grid uk-height-match="target: > div > div">
+                        <div>
+                            <div class="book-b">
+                                <div class="book-ico">
+                                    <svg id="lesson" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                                        <path id="Path_13" data-name="Path 13" d="M39.355,0H.645A.645.645,0,0,0,0,.645v38.71A.644.644,0,0,0,.645,40h38.71A.644.644,0,0,0,40,39.355V.645A.645.645,0,0,0,39.355,0ZM38.71,1.29V7.742H1.29V1.29ZM1.29,38.71V9.032H38.71V38.71Zm0,0" />
+                                        <path id="Path_14" data-name="Path 14" d="M33.935,35.871A1.935,1.935,0,1,0,32,33.935,1.938,1.938,0,0,0,33.935,35.871Zm0-2.581a.645.645,0,1,1-.645.645A.646.646,0,0,1,33.935,33.29Zm0,0" transform="translate(-29.419 -29.419)" />
+                                        <path id="Path_15" data-name="Path 15" d="M97.935,35.871A1.935,1.935,0,1,0,96,33.935,1.938,1.938,0,0,0,97.935,35.871Zm0-2.581a.645.645,0,1,1-.645.645A.646.646,0,0,1,97.935,33.29Zm0,0" transform="translate(-88.258 -29.419)" />
+                                        <path id="Path_16" data-name="Path 16" d="M161.935,35.871A1.935,1.935,0,1,0,160,33.935,1.938,1.938,0,0,0,161.935,35.871Zm0-2.581a.645.645,0,1,1-.645.645A.646.646,0,0,1,161.935,33.29Zm0,0" transform="translate(-147.097 -29.419)" />
+                                        <path id="Path_17" data-name="Path 17" d="M137.677,147.355A9.677,9.677,0,1,0,128,137.677,9.688,9.688,0,0,0,137.677,147.355Zm0-18.065a8.387,8.387,0,1,1-8.387,8.387A8.4,8.4,0,0,1,137.677,129.29Zm0,0" transform="translate(-117.677 -117.677)" />
+                                        <path id="Path_18" data-name="Path 18" d="M216.327,200.948a.645.645,0,0,0,.651-.009l6.452-3.871a.645.645,0,0,0,0-1.106l-6.452-3.871a.645.645,0,0,0-.978.553v7.742A.645.645,0,0,0,216.327,200.948Zm.963-7.164,4.553,2.732-4.553,2.731Zm0,0" transform="translate(-198.581 -176.516)" />
+                                        <path id="Path_19" data-name="Path 19" d="M41.032,384a3.232,3.232,0,0,0-3.161,2.581H32v1.29h5.872a3.226,3.226,0,0,0,6.321,0H66.839v-1.29H44.193A3.232,3.232,0,0,0,41.032,384Zm0,5.161a1.935,1.935,0,1,1,1.935-1.935A1.938,1.938,0,0,1,41.032,389.161Zm0,0" transform="translate(-29.419 -353.032)" />
+                                    </svg>
+                                </div>
+                                <h1 class="uk-margin-remove book-title">PRACTICAL LESSONS</h1>
+                                <p class="book-para">Sed maximum est in amicitia parem
+                                    esse inferiori. Saepe enim excellenti
+                                    onis in nostror
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="book-b">
+                                <div class="book-ico">
+                                    <svg id="lesson" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                                        <path id="Path_13" data-name="Path 13" d="M39.355,0H.645A.645.645,0,0,0,0,.645v38.71A.644.644,0,0,0,.645,40h38.71A.644.644,0,0,0,40,39.355V.645A.645.645,0,0,0,39.355,0ZM38.71,1.29V7.742H1.29V1.29ZM1.29,38.71V9.032H38.71V38.71Zm0,0" />
+                                        <path id="Path_14" data-name="Path 14" d="M33.935,35.871A1.935,1.935,0,1,0,32,33.935,1.938,1.938,0,0,0,33.935,35.871Zm0-2.581a.645.645,0,1,1-.645.645A.646.646,0,0,1,33.935,33.29Zm0,0" transform="translate(-29.419 -29.419)" />
+                                        <path id="Path_15" data-name="Path 15" d="M97.935,35.871A1.935,1.935,0,1,0,96,33.935,1.938,1.938,0,0,0,97.935,35.871Zm0-2.581a.645.645,0,1,1-.645.645A.646.646,0,0,1,97.935,33.29Zm0,0" transform="translate(-88.258 -29.419)" />
+                                        <path id="Path_16" data-name="Path 16" d="M161.935,35.871A1.935,1.935,0,1,0,160,33.935,1.938,1.938,0,0,0,161.935,35.871Zm0-2.581a.645.645,0,1,1-.645.645A.646.646,0,0,1,161.935,33.29Zm0,0" transform="translate(-147.097 -29.419)" />
+                                        <path id="Path_17" data-name="Path 17" d="M137.677,147.355A9.677,9.677,0,1,0,128,137.677,9.688,9.688,0,0,0,137.677,147.355Zm0-18.065a8.387,8.387,0,1,1-8.387,8.387A8.4,8.4,0,0,1,137.677,129.29Zm0,0" transform="translate(-117.677 -117.677)" />
+                                        <path id="Path_18" data-name="Path 18" d="M216.327,200.948a.645.645,0,0,0,.651-.009l6.452-3.871a.645.645,0,0,0,0-1.106l-6.452-3.871a.645.645,0,0,0-.978.553v7.742A.645.645,0,0,0,216.327,200.948Zm.963-7.164,4.553,2.732-4.553,2.731Zm0,0" transform="translate(-198.581 -176.516)" />
+                                        <path id="Path_19" data-name="Path 19" d="M41.032,384a3.232,3.232,0,0,0-3.161,2.581H32v1.29h5.872a3.226,3.226,0,0,0,6.321,0H66.839v-1.29H44.193A3.232,3.232,0,0,0,41.032,384Zm0,5.161a1.935,1.935,0,1,1,1.935-1.935A1.938,1.938,0,0,1,41.032,389.161Zm0,0" transform="translate(-29.419 -353.032)" />
+                                    </svg>
+                                </div>
+                                <h1 class="uk-margin-remove book-title">DRIVING SCHOOL SYSTEM</h1>
+                                <p class="book-para">Sed maximum est in amicitia parem
+                                    esse inferiori. Saepe enim excellenti
+                                    onis in nostror
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="book-b">
+                                <div class="book-ico">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                                        <g id="chat" transform="translate(-0.002)">
+                                            <g id="Group_2" data-name="Group 2" transform="translate(0.002)">
+                                                <g id="Group_1" data-name="Group 1">
+                                                    <path id="Path_1" data-name="Path 1" d="M37.793,22.035A14.378,14.378,0,0,0,18.125,2.11a.781.781,0,1,0,.816,1.332A12.815,12.815,0,0,1,36.26,21.526a.782.782,0,0,0,.022.9l.856,3.195L33.7,24.7a.781.781,0,0,0-.655.118A12.828,12.828,0,0,1,21.189,26.4a10.822,10.822,0,0,0-7.583-7.583A12.832,12.832,0,0,1,14.734,7.626.781.781,0,1,0,13.406,6.8a14.4,14.4,0,0,0-1.555,11.689q-.527-.052-1.068-.053A10.783,10.783,0,0,0,1.789,35.166L.953,38.287a.781.781,0,0,0,.957.957l3.2-.857a10.789,10.789,0,0,0,11.451-.063A.781.781,0,0,0,15.721,37a9.225,9.225,0,0,1-10.048-.112.781.781,0,0,0-.636-.1l-2.225.6.579-2.162a.781.781,0,0,0-.119-.656,9.216,9.216,0,1,1,16.174-2.19.781.781,0,0,0,1.468.535,10.748,10.748,0,0,0,.649-3.693q0-.541-.053-1.068a14.4,14.4,0,0,0,12.135-1.844l4.394,1.177A.781.781,0,0,0,39,26.527Z" transform="translate(-0.002)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_4" data-name="Group 4" transform="translate(20.916 16.039)">
+                                                <g id="Group_3" data-name="Group 3">
+                                                    <path id="Path_2" data-name="Path 2" d="M276.435,205.295h-7.957a.781.781,0,0,0-.781.781,4.76,4.76,0,1,0,9.52,0A.781.781,0,0,0,276.435,205.295Zm-3.979,3.979a3.2,3.2,0,0,1-3.1-2.416h6.2A3.2,3.2,0,0,1,272.457,209.274Z" transform="translate(-267.697 -205.295)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_6" data-name="Group 6" transform="translate(30.211 11.333)">
+                                                <g id="Group_5" data-name="Group 5">
+                                                    <path id="Path_3" data-name="Path 3" d="M388.227,145.434a.781.781,0,0,0-1.075-.255l-.1.063a.781.781,0,1,0,.821,1.329l.1-.062A.781.781,0,0,0,388.227,145.434Z" transform="translate(-386.679 -145.063)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_8" data-name="Group 8" transform="translate(19.476 11.333)">
+                                                <g id="Group_7" data-name="Group 7">
+                                                    <path id="Path_4" data-name="Path 4" d="M250.819,145.434a.781.781,0,0,0-1.075-.255l-.1.063a.781.781,0,1,0,.821,1.329l.1-.062A.781.781,0,0,0,250.819,145.434Z" transform="translate(-249.272 -145.063)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_10" data-name="Group 10" transform="translate(5.705 28.437)">
+                                                <g id="Group_9" data-name="Group 9">
+                                                    <path id="Path_5" data-name="Path 5" d="M74.335,364.228a.781.781,0,1,0,.229.552A.787.787,0,0,0,74.335,364.228Z" transform="translate(-73.001 -363.999)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_12" data-name="Group 12" transform="translate(10.002 28.437)">
+                                                <g id="Group_11" data-name="Group 11">
+                                                    <path id="Path_6" data-name="Path 6" d="M129.335,364.228a.781.781,0,1,0,.229.552A.787.787,0,0,0,129.335,364.228Z" transform="translate(-128.001 -363.999)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_14" data-name="Group 14" transform="translate(14.299 28.437)">
+                                                <g id="Group_13" data-name="Group 13">
+                                                    <path id="Path_7" data-name="Path 7" d="M184.334,364.228a.781.781,0,1,0,.229.552A.787.787,0,0,0,184.334,364.228Z" transform="translate(-183 -363.999)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_16" data-name="Group 16" transform="translate(17.796 34.703)">
+                                                <g id="Group_15" data-name="Group 15">
+                                                    <path id="Path_8" data-name="Path 8" d="M229.094,444.427a.781.781,0,1,0,.229.552A.787.787,0,0,0,229.094,444.427Z" transform="translate(-227.76 -444.198)" />
+                                                </g>
+                                            </g>
+                                            <g id="Group_18" data-name="Group 18" transform="translate(15.26 3.956)">
+                                                <g id="Group_17" data-name="Group 17">
+                                                    <path id="Path_9" data-name="Path 9" d="M196.635,50.869a.782.782,0,1,0,.229.553A.786.786,0,0,0,196.635,50.869Z" transform="translate(-195.301 -50.641)" />
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                </div>
+                                <h1 class="uk-margin-remove book-title">PLAN DRIVING LESSONS</h1>
+                                <p class="book-para">Sed maximum est in amicitia parem
+                                    esse inferiori. Saepe enim excellenti
+                                    onis in nostror
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="book-b">
+                                <div class="book-ico">
+                                    <svg id="online-course" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                                        <path id="Path_10" data-name="Path 10" d="M131.914,70.2a7.868,7.868,0,0,1-4.73,1.224h-.4A.781.781,0,0,0,126,72.2V83.92a.781.781,0,0,0,.781.781h.4a9.341,9.341,0,0,0,5.648-1.522,1.712,1.712,0,0,1,1.573-.205,1.562,1.562,0,0,1,.994,1.135h0a.784.784,0,0,0,.753.591h.005a.785.785,0,0,0,.757-.592,1.562,1.562,0,0,1,.994-1.135,1.711,1.711,0,0,1,1.573.205,9.34,9.34,0,0,0,5.648,1.522h.4a.781.781,0,0,0,.781-.781V72.2a.781.781,0,0,0-.781-.781h-.4A7.868,7.868,0,0,1,140.4,70.2a3.293,3.293,0,0,0-3.025-.409,3.091,3.091,0,0,0-1.218.807,3.092,3.092,0,0,0-1.218-.807A3.293,3.293,0,0,0,131.914,70.2Zm5.994,1.059a1.711,1.711,0,0,1,1.573.205,9.072,9.072,0,0,0,5.269,1.517V83.134a7.56,7.56,0,0,1-4.351-1.219,3.293,3.293,0,0,0-3.025-.409,3.181,3.181,0,0,0-.436.2V72.31A1.556,1.556,0,0,1,137.908,71.256Zm-2.533,1.05v9.4a3.182,3.182,0,0,0-.436-.2,3.293,3.293,0,0,0-3.025.409,7.562,7.562,0,0,1-4.351,1.219V72.979a9.073,9.073,0,0,0,5.269-1.517,1.712,1.712,0,0,1,1.573-.205A1.554,1.554,0,0,1,135.375,72.306Z" transform="translate(-116.156 -64.155)" />
+                                        <path id="Path_11" data-name="Path 11" d="M216.781,303a.781.781,0,0,0,0,1.563h4.687a.781.781,0,1,0,0-1.562Z" transform="translate(-199.125 -279.329)" />
+                                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="0.781" cy="0.781" r="0.781" transform="translate(19.219)" />
+                                        <path id="Path_12" data-name="Path 12" d="M37.656,0H23.516a.781.781,0,0,0,0,1.562H37.656a.782.782,0,0,1,.781.781V27.813a.782.782,0,0,1-.781.781H2.344a.782.782,0,0,1-.781-.781V2.345a.782.782,0,0,1,.781-.781H16.484a.781.781,0,0,0,0-1.562H2.344A2.346,2.346,0,0,0,0,2.345V27.813a2.346,2.346,0,0,0,2.344,2.344H16.667L14.7,38.438h-4.07a.781.781,0,1,0,0,1.562h18.75a.781.781,0,1,0,0-1.562H25.3l-1.972-8.281H37.656A2.346,2.346,0,0,0,40,27.813V2.345A2.346,2.346,0,0,0,37.656,0ZM23.7,38.438H16.3l1.972-8.281h3.453Z" transform="translate(0 -0.001)" />
+                                    </svg>
+
+                                </div>
+                                <h1 class="uk-margin-remove book-title">THEORY COURSES</h1>
+                                <p class="book-para">Sed maximum est in amicitia parem
+                                    esse inferiori. Saepe enim excellenti
+                                    onis in nostror
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="uk-button atlas-button-primary uk-border-pill book-btn">
+                        Or visit Atlastheorie.nl
+                        <span uk-icon="icon: link; ratio: 1.4"></span>
+                    </a>
+                </div>
+                <div><img src="img/book.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- stat -->
+    <section id="stat" class="stat">
+        <div class="uk-container-expand uk-text-center">
+            <div class="uk-child-width-1-1 uk-child-width-1-3@l" uk-grid uk-grid>
+                <div>
+                    <div class="stat-numbers">12,000</div>
+                    <div class="stat-para">Theory Successful Students</div>
+                </div>
+                <div>
+                    <div class="stat-numbers">+670</div>
+                    <div class="stat-para">Number of Resits</div>
+                </div>
+                <div>
+                    <div class="stat-numbers">+9500</div>
+                    <div class="stat-para">Practice Successful Students</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- newsletter -->
+    <section id="newsletter" class="uk-section-small uk-section-default">
+        <div class="uk-container">
+            <h1 class="uk-margin-remove atlas-place uk-text-center uk-align-center">Stay Up to Date with our Newsletter</h1>
+            <div>
+                <form class="uk-text-center uk-align-center atlas-email">
+                    <div class="uk-margin" uk-margin>
+                        <div uk-form-custom="target: true">
+                            <input class="uk-input newletter-input" id="form-stacked-text" type="text" placeholder="Your Email...">
+
+                        </div>
+                        <button class="uk-button uk-button-default atlas-button-primary uk-border-pill newsl-s">SUBSCRIBE</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /newsletter -->
+
+
+    <!-- footer -->
+    <footer class="atlassfooter">
+        <div class="uk-container">
+            <div class="uk-child-width-1-1 uk-child-width-1-3@l" uk-grid uk-grid>
+                <div><img class="ft-logo" src="img/logo.png"></div>
+                <div class="ft-rightrese">All rights reserved. Atlasdrive.nl</div>
+                <div class="ft-ico">
+                    <a href="" class="uk-icon-button ft-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                    <a href="" class="uk-icon-button ft-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                    <a href="" class="uk-icon-button ft-icon-button" uk-icon="instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+
+
+
+
+
+    <!-- OFFCANVAS -->
+    <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+            <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+            <ul class="uk-nav uk-nav-default hbr">
+                <li><a href="#js-options"> Home</a></li>
+                <li><a href="#js-options"> Driving Lessons</a></li>
+                <li><a href="#js-options"> About</a></li>
+                <li><a href="#js-options"> Trial Lesson </a></li>
+                <li><a href="#js-options"> Contact</a></li>
+            </ul>
+            <h3></h3>
+            <ul class="uk-nav uk-nav-default">
+                <li class="hbr-login"><a href="#js-options "> Login</a></li>
+                <li class="hbr-signin"><a href="#js-options ">Don't have account? Sign in</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /OFFCANVAS -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>

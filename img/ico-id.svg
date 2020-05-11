@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="282.772" height="206" viewBox="0 0 282.772 206">
+  <g id="ico-id" transform="translate(0 0.802)">
+    <g id="_025---Boating-License" data-name="025---Boating-License" transform="translate(0 -0.401)">
+      <rect id="Rectangle-path" width="282" height="206" rx="2" transform="translate(0.772 -0.401)" fill="#b0d3f0"/>
+      <rect id="Rectangle-path-2" data-name="Rectangle-path" width="79" height="83" rx="1" transform="translate(18.772 53.599)" fill="#fff"/>
+      <path id="Shape" d="M27.5,21A19.5,19.5,0,0,1,47,40.5V55.128H8V40.5A19.5,19.5,0,0,1,27.5,21Z" transform="translate(31.003 82.216)" fill="#955ba5"/>
+      <circle id="Oval" cx="14.5" cy="14.5" r="14.5" transform="translate(43.772 74.599)" fill="#f9c795"/>
+      <path id="Shape-2" data-name="Shape" d="M111.131,31.13v9.117A24.377,24.377,0,0,1,86.754,64.624H42.875A4.875,4.875,0,0,1,38,59.748V39.662Z" transform="translate(147.264 121.473)" fill="#fff"/>
+      <path id="Shape-3" data-name="Shape" d="M82.006,70H33.252a19.618,19.618,0,0,1-4.875-.614A19.618,19.618,0,0,1,23.5,70H8.875a4.875,4.875,0,1,1,0-9.751h7.493A19.355,19.355,0,0,1,13.751,50.5V45.626a14.626,14.626,0,1,1,29.252,0V50.5a19.355,19.355,0,0,1-2.618,9.751H82.006a4.875,4.875,0,0,1,0,9.751ZM28.377,40.751A4.875,4.875,0,0,0,23.5,45.626V50.5a9.751,9.751,0,0,0,4.875,8.439A9.751,9.751,0,0,0,33.252,50.5V45.626A4.875,4.875,0,0,0,28.377,40.751Z" transform="translate(15.501 120.97)" fill="#285680"/>
+      <rect id="Rectangle-path-3" data-name="Rectangle-path" width="137" height="21" rx="1" transform="translate(116.772 53.599)" fill="#fff"/>
+      <g id="Group_5" data-name="Group 5" transform="translate(0 0.833)">
+        <path id="Shape-4" data-name="Shape" d="M159.51,27.751H27.875a4.875,4.875,0,0,1,0-9.751H159.51a4.875,4.875,0,1,1,0,9.751Z" transform="translate(89.134 69.757)" fill="#285680"/>
+        <path id="Shape-5" data-name="Shape" d="M159.51,31.751H27.875a4.875,4.875,0,1,1,0-9.751H159.51a4.875,4.875,0,1,1,0,9.751Z" transform="translate(89.134 85.258)" fill="#285680"/>
+        <path id="Shape-6" data-name="Shape" d="M81.5,35.751H27.875a4.875,4.875,0,0,1,0-9.751H81.5a4.875,4.875,0,0,1,0,9.751Z" transform="translate(89.134 100.76)" fill="#285680"/>
+        <path id="Shape-7" data-name="Shape" d="M282.772,9.751V34.128H0V9.751A9.78,9.78,0,0,1,9.751,0h263.27A9.78,9.78,0,0,1,282.772,9.751Z" fill="#285680"/>
+      </g>
+      <path id="Shape-8" data-name="Shape" d="M66.028,27V50.5L42.09,53.327,46.527,27Z" transform="translate(163.114 105.468)" fill="#2fa8cc"/>
+      <path id="Shape-9" data-name="Shape" d="M71.523,47.623,47,50.5V27H66.5l4.875,19.5Z" transform="translate(182.143 105.468)" fill="#67b9cc"/>
+      <path id="Shape-10" data-name="Shape" d="M40.867,49.494a4.875,4.875,0,0,1-.566-9.717l82.881-9.751a4.875,4.875,0,0,1,1.141,9.682L41.443,49.46a4.6,4.6,0,0,1-.575.034Z" transform="translate(139.521 117.101)" fill="#e64c3c"/>
+      <path id="Shape-11" data-name="Shape" d="M94.629,35.751H45.875a4.875,4.875,0,1,1,0-9.751H94.629a4.875,4.875,0,0,1,0,9.751Z" transform="translate(158.89 101.593)" fill="#e64c3c"/>
+    </g>
+  </g>
+</svg>

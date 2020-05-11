@@ -1,0 +1,972 @@
+/* Font */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../font/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Black.woff2') format('woff2'),
+        url('../font/Gilroy-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Medium.woff2') format('woff2'),
+        url('../font/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Light.woff2') format('woff2'),
+        url('../font/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Thin.woff2') format('woff2'),
+        url('../font/Gilroy-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Bold.woff2') format('woff2'),
+        url('../font/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../font/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Heavy.woff2') format('woff2'),
+        url('../font/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-UltraLight.woff2') format('woff2'),
+        url('../font/Gilroy-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Regular.woff2') format('woff2'),
+        url('../font/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Gilroy;
+}
+
+
+
+/*  Home  */
+.nav {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.uk-sticky-placeholder {
+    height: 0 !important;
+}
+
+.top-wrap::before,
+.overlay-wrap::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.top-wrap-height {
+    height: 720px;
+    min-height: 460px;
+    transition: height 0.25s;
+}
+
+.uk-subnav-pill > * > :first-child {
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.top-container {
+    z-index: 2;
+}
+
+.uk-logo img {
+    height: 22px;
+}
+
+.subtitle-text {
+    font-size: 1.2em;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+.logos-grid img {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: filter 0.25s;
+}
+
+.logos-grid img:hover {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    filter: grayscale(0);
+}
+
+.header-icon-1 {}
+
+.atlas-login {
+    border: 1px solid #fff;
+    min-height: 40px !important;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 0 26px !important;
+
+}
+
+.atlas-login:hover {
+    color: #fff !important;
+    background-color: #3957ff;
+    border: 1px solid #3957ff;
+}
+
+.header-icon-1 img {
+    height: 24px;
+}
+
+.header-icon-bottom {
+    padding-bottom: 160px;
+    height: 24px;
+    z-index: 999;
+}
+
+.header-icon-bottom img {
+    height: 24px;
+}
+
+.header-tx-small {
+    font-size: 22px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    letter-spacing: 0.07em;
+    padding: 25px 0 36px 0;
+}
+
+.header-tx-large {
+    font-size: 35px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.07em;
+    padding-bottom: 26px;
+}
+
+.header-tx-para {
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    line-height: 1.643;
+    text-align: center;
+    letter-spacing: 0.025em;
+    max-width: 580px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.uk-button-primary {
+    background-color: #3957ff !important;
+    color: #FFFFFF !important;
+}
+
+.atlas-header-padding {
+    padding-bottom: 62px;
+}
+
+.hbr {
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    margin-top: 0;
+    padding: 0 16px;
+}
+
+.hbr li {
+    padding: 16px 0;
+}
+
+.hbr-signin {
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.hbr-login {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    background-color: rgb(57, 87, 255);
+    line-height: 40px;
+    border-radius: 60px;
+    margin-top: 36px;
+}
+
+/*  */
+.atlas-sub-header {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 17.86px 1.14px rgba(28, 28, 28, 0.03);
+    padding: 44px;
+    margin-top: -140px;
+    position: relative;
+}
+
+.atlas-color-ico img {
+    height: 40px;
+}
+
+.atlas-divider-vertical {
+    width: 1px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #e5e5e5;
+    margin-top: 0px;
+}
+
+.atlas-sub-header-space {
+    padding-left: 16px;
+}
+
+/*  Content  */
+.atlas-s-gray {
+    background-color: #fcfcfd;
+}
+
+.body-tx-large {
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    line-height: 1.667;
+    letter-spacing: 0.05em;
+}
+
+.body-tx-para {
+    font-size: 12px;
+    font-family: "Gilroy";
+    color: rgba(27, 27, 27, 0.702);
+    line-height: 1.667;
+    letter-spacing: 0.03em;
+    max-width: 310px;
+    margin: auto;
+}
+
+.atlas-title-padding {
+    padding: 34px 0 28px 0;
+}
+
+.atlas-box-colorsha {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 17.86px 1.14px rgba(28, 28, 28, 0.05);
+    padding: 24px;
+    max-width: 202px;
+    margin: auto;
+}
+
+.atlas-3box-number {
+    font-size: 26px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 54px;
+    text-align: center;
+    background-color: #3957FF;
+    border-radius: 99px;
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    left: 0;
+    top: -27px;
+    box-shadow: 0px 6px 12.22px 0.78px rgba(57, 87, 255, 0.18);
+}
+
+.atlas-3box-img {
+    height: 68px;
+}
+
+.atlas-3box-title {
+    font-size: 18px;
+    font-family: "Gilroy";
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    line-height: 1.111;
+    text-align: center;
+    padding: 24px 0 20px 0;
+    letter-spacing: 0.030em;
+}
+
+.atlas-3box-para {
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: rgba(36, 36, 36, 0.8);
+    line-height: 1.429;
+    text-align: center;
+    letter-spacing: 0.025em;
+}
+
+.atlas-3box-url {
+    padding-top: 24px;
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgb(18, 101, 167);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.atlas-3box-quot {
+    font-size: 18px;
+    font-family: "Gilroy";
+    color: #3957FF;
+    font-style: italic;
+    line-height: 0.889;
+    letter-spacing: 0.050em;
+    padding-top: 50px;
+}
+
+.mb-img-rot {
+    min-height: 440px
+}
+
+/*  friendly  */
+
+.friendly-title {
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    line-height: 1.667;
+    letter-spacing: 0.05em;
+}
+
+.fr-blue-line {
+    border-radius: 1px;
+    background-color: rgb(57, 87, 255);
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    width: 27px;
+    height: 4px;
+}
+
+.atlas-button-primary {
+    background-color: rgb(57, 87, 255);
+    box-shadow: 0px 9px 14.25px 0.75px rgba(57, 87, 255, 0.22);
+    color: white;
+    font-size: 16px;
+    font-family: "Gilroy";
+    line-height: 44px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+    transition: all 100ms ease-in;
+    text-transform: none;
+    border: 0;
+}
+
+.atlas-button-primary:hover {
+    background-color: rgb(57, 87, 255);
+    box-shadow: 0px 12px 24px 0.75px rgba(57, 87, 255, 0.22);
+    color: rgb(190, 200, 255);
+    transform: scale(1.1);
+}
+
+#friendly {
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.fdy-img-box {
+    padding: 32px;
+    text-align: left;
+}
+
+.fdy-img {
+    position: absolute;
+    right: 34px;
+    top: 34px;
+    bottom: 0;
+}
+
+.fdy-frame {
+    width: 488px;
+    -webkit-animation: rotation 10s infinite linear;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.frd-b1 {
+    padding-top: 60px;
+}
+
+/* Place */
+
+.atlas-place {
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    line-height: 1.667;
+    letter-spacing: 0.05em;
+    padding: 0 0 54px 0;
+}
+
+.place-line {
+    background-color: #e6e6e8;
+    width: 1px;
+    height: 64%;
+    position: absolute;
+    left: -40px;
+}
+
+.place-numbe {
+    font-size: 22px;
+    font-family: "Gilroy";
+    color: rgba(27, 27, 27, 0.6);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    position: absolute;
+    left: -52px;
+    margin-top: -8px;
+    background-color: white;
+    padding: 8px 0;
+}
+
+.place-title {
+    font-size: 22px;
+    font-family: "Gilroy";
+    color: #3957FF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    padding-bottom: 22px;
+}
+
+.place-para {
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgba(27, 27, 27, 0.702);
+    line-height: 1.563;
+    letter-spacing: 0.05em;
+    padding-bottom: 40px;
+}
+
+/*  Quiz  */
+.quiz {
+    padding-bottom: 0px;
+}
+
+.fr-blue-line-2 {
+    border-radius: 1px;
+    background-color: rgb(57, 87, 255);
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 27px;
+    height: 4px;
+}
+
+.atlas-quiz {
+    padding: 40px 0;
+    position: relative;
+}
+
+.atlas-info-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 13px;
+}
+
+.atlas-info-block span {
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.atlas-info-block div {
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.atlas-img-c:hover > .atlas-img-h {
+    display: flex !important;
+
+}
+
+.atlas-q {
+    display: block;
+}
+
+.atlas-img-h {
+    display: none !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3957FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in 200s all;
+}
+
+.atlas-img-h img {
+    height: 16px;
+}
+
+
+/*  Blocks *3  */
+.blocks3c-quiz {
+    padding: 0 100px 40px 100px;
+}
+
+.b3-content {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 16px 23px 2px rgba(33, 33, 33, 0.07);
+    padding: 20px;
+    max-width: 190px;
+    transition: all 200ms ease-in-out;
+}
+
+.b3-content:hover {
+    background-image: url(../img/b3-hover.png);
+    background-position: center;
+    background-size: auto;
+    transform: scale(1.1);
+}
+
+.b3-content:hover .b3-img path {
+    fill: #fff !important;
+}
+
+.b3-content:hover .b3-h2 {
+    color: white;
+}
+
+.b3-content:hover .b3-para {
+    color: white;
+}
+
+.b3-img {
+    padding: 10px 0 20px 0;
+}
+
+.b3-img path {
+    width: 48px;
+    fill: #3957FF !important;
+}
+
+.b3-h2 {
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgb(40, 40, 40);
+    line-height: 1.563;
+    letter-spacing: 0.04em;
+}
+
+.b3-para {
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: rgba(40, 40, 40, 0.902);
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+
+/*  Video  */
+
+.atlas-video-b {}
+
+.atlas-video-b video {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.atlas-v-info {
+    background-color: #3957ff;
+    color: white;
+    background-image: url(../img/video-bg.jpg);
+    background-position: top right;
+    background-size: cover;
+}
+
+.atlas-vin-line {
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    width: 27px;
+    height: 4px;
+}
+
+.atlas-vin-t {
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.667;
+    letter-spacing: 0.05em;
+    padding-bottom: 8px
+}
+
+.atlas-vin-para {
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    line-height: 1.786;
+    letter-spacing: 0.03em;
+}
+
+.atlas-vinfo-b {
+    padding: 100px 20px 20px 20px;
+}
+
+.vid-section {
+    padding: 40px 60px 0 60px;
+}
+
+.v-day {
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    line-height: 106px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 106px;
+    width: 106px;
+    background-color: #3957ff;
+    position: relative;
+    z-index: 1;
+}
+
+.v-fill {
+    background-color: white;
+    color: #3957ff;
+}
+
+.vid-line-day {
+    position: absolute;
+    width: calc(100% - 30%);
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    right: 0;
+    left: 60px;
+    top: 64%;
+}
+
+
+/*  Practice  */
+.practice {
+    background-color: #fcfcfd;
+    padding-bottom: 80px;
+}
+
+.atlac-pra-title {
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    line-height: 1.667;
+    letter-spacing: 0.05em;
+    padding: 16px 0;
+}
+
+.atlas-pra-b {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 12px 22.08px 1.92px rgba(40, 40, 40, 0.06);
+}
+
+.atlas-pra-fram {
+    padding: 6px 12px 12px 12px;
+    transition: all 200ms ease-in;
+}
+
+.img-pra {
+    width: 100%;
+}
+
+.trial_lesson {
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.price-pra {
+    font-size: 16px;
+    font-family: "Gilroy";
+    color: #3957ff;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 0.05em;
+    position: absolute;
+    right: 0;
+}
+
+.para-pra {
+    font-size: 12px;
+    font-family: "Gilroy";
+    color: rgba(27, 27, 27, 0.702);
+    line-height: 1.5;
+    letter-spacing: 0.033em;
+    margin: 0;
+    padding: 12px 0;
+}
+
+.url-pra {
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: #3957ff;
+    line-height: 1.286;
+    letter-spacing: 0.033em;
+    text-align: right;
+}
+
+.url-pra:hover {
+    color: #1532d4;
+}
+
+
+/* book    */
+
+.booktoday {
+    padding: 60px 0 80px 0;
+}
+
+.allbooks-blocks {}
+
+.book-q {
+    padding-bottom: 20px;
+}
+
+.book-b {
+    padding: 18px 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.book-b:hover {
+    border-radius: 2px;
+    background-color: rgb(57, 87, 255);
+    box-shadow: 0px 7px 15.64px 1.36px rgba(18, 101, 167, 0.2);
+    background-image: url(../img/b3-hover.png);
+    background-position: center;
+    background-size: auto;
+    transform: scale(1.1);
+}
+
+.book-b:hover path {
+    fill: #fff !important;
+}
+
+.book-b:hover .book-title {
+    color: #fff !important;
+}
+
+.book-b:hover .book-para {
+    color: #fff !important;
+}
+
+.book-ico {
+    padding: 10px 0 20px 0;
+}
+
+.book-ico path {
+    width: 48px;
+    fill: #3957FF !important;
+}
+
+.book-title {
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: rgb(26, 26, 26);
+    line-height: 1.714;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.book-para {
+    font-size: 12px;
+    font-family: "Gilroy";
+    color: rgba(26, 26, 26, 0.8);
+    line-height: 1.333;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.book-btn {
+    margin-top: 40px;
+}
+
+
+/*     stat     */
+
+.stat {
+    background-color: #3957ff;
+    padding: 48px 0;
+    background-image: url(../img/stat-bg.jpg);
+    background-size: cover;
+}
+
+.stat-numbers {
+    font-size: 40px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.825;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 10px 0;
+}
+
+.stat-para {
+    font-size: 18px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    line-height: 1.833;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+
+/* newsletter  */
+
+.newletter-input {
+    border-width: 1px;
+    border-color: #bfbfbf;
+    border-style: solid;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: rgba(28, 28, 28, 0.8);
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    max-width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 300px;
+}
+
+.newsl-s {
+    margin-left: 20px;
+}
+
+
+/* Footer  */
+
+.atlassfooter {
+    background-color: #3957ff;
+    line-height: 70px;
+    color: white;
+}
+
+.ft-logo {
+    height: 22px;
+}
+
+.ft-ico {
+    text-align: right;
+}
+
+.ft-icon-button {
+    background-color: #fff;
+    color: #3957ff;
+}
+
+.ft-icon-button:hover {
+    color: #001dc3;
+}
+
+.ft-rightrese {
+    font-size: 14px;
+    font-family: "Gilroy";
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.02em;
+}
+
+
+
+
+
+/*  Animation  */
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}

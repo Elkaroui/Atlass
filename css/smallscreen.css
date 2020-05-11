@@ -1,0 +1,199 @@
+.atlas-divider-vertical {
+    display: none;
+}
+
+
+.mb-img-rot {
+    min-height: 400px
+}
+
+.mb-img-rot2 {
+    position: relative !important;
+    text-align: center;
+}
+
+.fdy-img-box {
+    padding: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.fdy-img-box {
+    min-width: 440px;
+    margin: auto;
+    position: relative;
+}
+
+
+.atlas-color-ico img {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.atlas-sub-header-space {
+    padding-left: 16px;
+    display: block;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 14px;
+}
+
+.header-icon-bottom {
+    padding-bottom: 120px;
+}
+
+.atlas-box-colorsha {
+    padding: 24px 48px 24px 24px;
+    max-width: fit-content;
+    margin: auto;
+    margin-bottom: 18px !important;
+    width: calc(100% - 34%);
+}
+
+.friendly-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.frd-b1 {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.frd-b1 a {
+    margin-top: 16px;
+}
+
+.fr-blue-line {
+    margin-left: 0px;
+    left: 50%;
+    top: 0;
+}
+
+.fr-blue-line-2,
+.atlas-vin-line {
+    margin-left: -13px;
+    left: 50%;
+}
+
+.atlas-sub-header {
+    padding: 16px;
+}
+
+.fdy-img-box {
+    min-width: inherit;
+    width: 260px;
+}
+
+.fdy-img {
+    width: 260px;
+}
+
+.atlas-quiz {
+    padding: 40px 0 0 0;
+}
+
+.vid-section {
+    padding: 30px 0 0 0;
+}
+
+.fdy-frame {
+    width: 296px !important;
+    left: 12px;
+    top: 16px
+}
+
+.mb-img-rot {
+    min-height: 220px;
+}
+
+.amst-img {
+    display: none;
+}
+
+.amst-content {
+    text-align: center;
+}
+
+.place-info {
+    text-align: center;
+}
+
+.place-numbe {
+    position: inherit;
+}
+
+.atlas-img-c {
+    margin: 0 6%;
+}
+
+.atlas-img-c img {
+    width: 100%;
+    text-align: center;
+}
+
+.b3-content {
+    max-width: inherit;
+}
+
+.blocks3c-quiz {
+    padding: 0 10% 10% 10%;
+}
+
+.atlas-video-b video {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.atlas-v-info {
+    margin-top: -1px !important;
+    text-align: center;
+}
+
+.v-day {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 14px;
+}
+
+.atlas-vinfo-b {
+    padding: 36px;
+}
+
+.allbooks-blocks,
+.book-title,
+.book-para {
+    text-align: center
+}
+
+.newletter-input {
+    min-width: inherit;
+}
+
+.rates-p {
+    padding: 0 6%;
+}
+
+.atlas-email {
+    display: block;
+}
+
+.newsl-s {
+    margin: 16px 0;
+}
+
+.ft-ico {
+    text-align: center;
+}
+
+.atlassfooter {
+    text-align: center;
+    line-height: 20px;
+    padding: 36px;
+}
